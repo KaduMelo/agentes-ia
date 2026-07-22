@@ -33,6 +33,9 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
+# Google ADK
+.adk/
+
 # Environment variables / secrets
 .env
 .env.*
