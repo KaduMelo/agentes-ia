@@ -3,14 +3,14 @@ from google.adk.models.lite_llm import LiteLlm
 
 root_agent = Agent(
     name="agent_openai",
-    # instruction="Voce é um especialista em Python"
+    # instruction="You are a Python expert"
     # instruction=(
-    #     "Escreva um código Python que imprima 'Olá, Mundo!'"
-    #     "Certifique-se de usar a função print() para exibir a mensagem."
+    #     "Write Python code that prints 'Hello, World!'"
+    #     "Make sure to use the print() function to display the message."
     # ),
     instruction="""
-        Escreva um código Python que imprima 'Olá, Mundo!' usando a função print().
-        Certifique-se de que o código seja simples e fácil de entender.
+        Write Python code that prints 'Hello, World!' using the print() function.
+        Make sure the code is simple and easy to understand.
     """,
     model=LiteLlm(model="openai/gpt-4o-mini")
 )
