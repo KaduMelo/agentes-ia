@@ -36,6 +36,9 @@ htmlcov/
 # Google ADK
 .adk/
 
+# Local databases
+*.db
+
 # Environment variables / secrets
 .env
 .env.*
