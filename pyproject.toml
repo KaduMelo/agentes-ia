@@ -5,5 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "google-adk[extensions]===2.5.0",
+    "google-adk[extensions,mcp]===2.5.0",
+    "sqlalchemy>=2.0.51",
 ]
